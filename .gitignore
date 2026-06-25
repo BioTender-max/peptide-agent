@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+.installed.cfg
+*.pyo
+.python-version
+
+# --- venv ---
+.venv/
+venv/
+env/
+.env
+.envrc
+
+# --- testing / linting / typing ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+
+# --- IDE / editor ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# --- project-specific ---
+# Per-run outputs and tool caches are reproducible — don't commit
+# (we keep step2_pdl1_4zqk as a committed reference run, see README)
+runs/*
+!runs/step2_pdl1_4zqk/
+cache/
+*.cif
+*.cif.gz
+*.pdb
+*.pdb.gz
+
+# Developer-only recovery artefacts (transcript fragments used during v2 rebuild)
+.recovery/
+
+# Local secrets
+.env.local
+secrets.toml

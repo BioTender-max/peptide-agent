@@ -1,0 +1,7 @@
+langgraph>=0.2.30
+langchain-core>=0.3.0
+pydantic>=2.7
+biotite>=0.41
+boltz-api>=0.42
+numpy
+duckdb

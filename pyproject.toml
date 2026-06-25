@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "peptide-agent"
+version = "0.1.0a1"
+description = "Agentic system for peptide binder discovery — 7 LangGraph agents with cross-tool evidence ledger."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Junior Yu", email = "" }
+]
+keywords = [
+    "peptide", "binder-design", "protein-design", "langgraph",
+    "agent", "boltz", "structural-biology", "biotite",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "langgraph>=0.2.30",
+    "langchain-core>=0.3.0",
+    "pydantic>=2.7",
+    "biotite>=0.41",
+    "boltz-api>=0.42",
+    "numpy>=1.24",
+    "duckdb>=0.10",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.4",
+    "mypy>=1.7",
+]
+
+[project.scripts]
+peptide-agent = "peptide_agent.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/junioryu/peptide-agent"
+Issues = "https://github.com/junioryu/peptide-agent/issues"
+
+[tool.setuptools.packages.find]
+include = ["peptide_agent*"]
+exclude = ["tests*", "runs*", "cache*"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+addopts = "-q -p no:cacheprovider"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]  # let formatter handle line length
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+warn_unused_ignores = true
