@@ -1,0 +1,292 @@
+{
+  "reference_pdb": "4ZQK",
+  "target_chain": "A",
+  "partner_chain": "B",
+  "n_total": 22,
+  "n_anchors": 16,
+  "n_rim": 6,
+  "conservation_threshold": 0.875,
+  "conservation_source": "8 mammalian CD274 orthologs aligned to Q9NZQ7",
+  "hotspots": [
+    {
+      "chain": "A",
+      "residue_number": 18,
+      "residue_aa": "ALA",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 19,
+      "residue_aa": "PHE",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 20,
+      "residue_aa": "THR",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 23,
+      "residue_aa": "VAL",
+      "role": "rim",
+      "conservation": 0.75,
+      "supported_by_tools": [
+        "pdb_contact"
+      ],
+      "consensus_score": 1,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 26,
+      "residue_aa": "ASP",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 54,
+      "residue_aa": "ILE",
+      "role": "rim",
+      "conservation": 0.375,
+      "supported_by_tools": [
+        "pdb_contact"
+      ],
+      "consensus_score": 1,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 56,
+      "residue_aa": "TYR",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 58,
+      "residue_aa": "GLU",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 63,
+      "residue_aa": "ASN",
+      "role": "rim",
+      "conservation": 0.25,
+      "supported_by_tools": [
+        "pdb_contact"
+      ],
+      "consensus_score": 1,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 66,
+      "residue_aa": "GLN",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 76,
+      "residue_aa": "VAL",
+      "role": "rim",
+      "conservation": 0.75,
+      "supported_by_tools": [
+        "pdb_contact"
+      ],
+      "consensus_score": 1,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 113,
+      "residue_aa": "ARG",
+      "role": "rim",
+      "conservation": 0.25,
+      "supported_by_tools": [
+        "pdb_contact"
+      ],
+      "consensus_score": 1,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 115,
+      "residue_aa": "MET",
+      "role": "rim",
+      "conservation": 0.5,
+      "supported_by_tools": [
+        "pdb_contact"
+      ],
+      "consensus_score": 1,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 117,
+      "residue_aa": "SER",
+      "role": "anchor",
+      "conservation": 0.875,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 119,
+      "residue_aa": "GLY",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 120,
+      "residue_aa": "GLY",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 121,
+      "residue_aa": "ALA",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 122,
+      "residue_aa": "ASP",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 123,
+      "residue_aa": "TYR",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 124,
+      "residue_aa": "LYS",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 125,
+      "residue_aa": "ARG",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    },
+    {
+      "chain": "A",
+      "residue_number": 126,
+      "residue_aa": "ILE",
+      "role": "anchor",
+      "conservation": 1.0,
+      "supported_by_tools": [
+        "pdb_contact",
+        "mammalian_conservation"
+      ],
+      "consensus_score": 2,
+      "n_evidence_cards": 1
+    }
+  ]
+}
